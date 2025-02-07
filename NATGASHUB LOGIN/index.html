@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>NATGAS LOGIN PAGE</title>
+</head>
+<body>
+    <form action="#" method="post">
+    <div>
+    <img src="https://mid-townsoftware.com/wp-content/uploads/2018/11/NatGasHub-Logo-with-Border.jpg" alt="Logo">
+</div><br>
+    <strong><p class="login-message">Sign in to start your session.</p></strong>
+    <div class="container"><br>
+    <input class="email-manage" id="Email" name="Email" placeholder="Email" type="text" autocomplete="on"  required ><br>
+
+</div>
+<div class="container">
+    <input class="password-manage" id="password" name="password" placeholder="Password" type="password" autocomplete="on" required ><br>
+    <br>
+</div>
+<div class="recaptcha">
+<input type="checkbox"id="recaptcha"><label for="recaptcha">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm not a robot</label>
+</div>
+<div class="account-options">
+    <label for="rememberMe">
+        <input type="checkbox" id="rememberMe" name="rememberMe" class="remember-me" > Remember Me  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <br>
+    <b><a href="target.html" style="text-decoration: none; color: #ff6c3a; font: 13px; font-size: large;">Can't access your account?</a></b>
+</div>
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="loginBtn" >Log In</button>
+<BR><BR>
+<div class="sso" >
+    <a href="https://login.microsoftonline.com/10f8254c-fac2-489c-831d-0c158c2da811/oauth2/v2.0/authorize?response_type%20=code&client_id%20=a94e5e0d-c954-4b89-bc93-d3a3546aea55&redirect_uri=https://test.natgashub.com/Account/LoginWithAzureAd&scope%20=user.read">Sign in with SSO (Single Sign ON)</a>
+</div>
+</form>
+</body>
+</html>
