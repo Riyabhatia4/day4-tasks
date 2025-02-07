@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(255, 255, 255);
+    
+}
+fieldset{
+text-align: center;background-color: rgb(255, 245, 231);
+}
+label,h2{
+color: brown;
+text-align: center;
+}
+select{
+    text-align: center;
+}
+b{
+    text-align:center ;
+}
+.class{
+    text-align: center;
+}
+.center {
+    text-align: center;
+}
+h3{
+    color: brown;
+}
